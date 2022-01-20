@@ -6,7 +6,7 @@ local Ribbet = setmetatable({}, MetaRibbet)
 Ribbet.__index = Ribbet
 
 --config-----------------------------------------------------------------------------------------------------------
-Ribbet.path = "lib/ribbet"--path to library
+Ribbet.path = "ribbet"--path to library
 Ribbet.pathFont = Ribbet.path.."/arial.ttf"--path to font
 Ribbet.fontSize = 14
 Ribbet.textCushion = 6--white space surrounding letters
