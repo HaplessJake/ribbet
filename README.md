@@ -1,6 +1,8 @@
 # ribbet
 A Love2d library that adds a button and tab ribbon at the top of the window.
 
+some config options are found in the ribbet.lua file at the top.
+
 To use simply add the ribbet folder to the folder containing main.lua
 
 Add the following to the top of the main.lua file.
@@ -22,7 +24,7 @@ and
   hotKey = {"key pressed", "key held", ...}
 
 hotKey's keypressed can be any key press check ex, "i", "space" or "escape"
-and the keyheld and any string of a key passed in after must be held to active the hotkey
+and the keyheld and any string of a key passed in after must be held to active the hotkey.
 
 Building a Tabs contents called a "fly" :
 
